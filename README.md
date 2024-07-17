@@ -146,3 +146,12 @@ Django Peng - pjt73651@email.com
 
 项目链接: https://github.com/DjangoPeng/openai-quickstart
 
+## homework
+### 1.gpt-4v 识别图片
+### 2.ai translator
+  [add target larguage](ai_translator/main.py)
+  [api service](ai_translator/translator_api.py)
+  [translator gui](ai_translator/translator_ui.py)
+### 3.route chain
+
+### 1.implement sale bot 
