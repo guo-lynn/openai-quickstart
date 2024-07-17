@@ -105,3 +105,10 @@ python ai_translator/main.py --model_type GLMModel --glm_model_url $GLM_MODEL_UR
 
 
 
+## homework
+1.gpt-4v 识别图片
+2.ai translator
+  [add target larguage](ai_translator/main.py)
+  [api service](ai_translator/translator_api.py)
+  [translator gui](ai_translator/translator_ui.py)
+3.route chain

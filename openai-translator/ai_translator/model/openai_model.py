@@ -11,9 +11,11 @@ from openai import OpenAI
 class OpenAIModel(Model):
     def __init__(self, model: str, api_key: str):
         self.model = model
-        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        self.client = OpenAI(api_key=api_key,timeout=30)
+        LOG.info(f"Base URL: {self.client.base_url}")
 
     def make_request(self, prompt):
+        LOG.info(f"Base URL: {self.client.base_url}")
         attempts = 0
         while attempts < 3:
             try:
